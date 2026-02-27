@@ -4,7 +4,8 @@ science_score = 80
 english_score = 85
 
 # Calculating the average
-average_score = math_score + science_score + english_score / 3
+# average_score = math_score + science_score + english_score / 3
+average_score = (math_score + science_score + english_score)/ 3
 
 print(f"Your average score is: {average_score}")
 
